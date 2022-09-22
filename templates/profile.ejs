@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>UShare</title>
+
+        <meta name="description"    content="uploading website">
+        <meta name="author"         content="Eoin Walsh">
+        <meta name="keywords"       content="files">
+
+        <link rel="stylesheet" type="text/css" href="globalStyle.css">
+    </head>
+    <body>
+    <div class="topbanner" id="top">
+        <h1><a href="index">UShare</a></h1>
+        <h2>User Page for <%= username %></h2>
+    </div>
+
+    <p>Here you can upload files:</p>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="myimage">
+        <input type="text" name="mytitle">
+        <input type="submit" value="Upload now">
+    </form>
+
+    <div>
+        <a href="logout">Logout</a>
+    </div>
+    </body>
+</html>

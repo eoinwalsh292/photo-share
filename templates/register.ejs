@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>UShare</title>
+
+        <meta name="description"    content="uploading website">
+        <meta name="author"         content="Eoin Walsh">
+        <meta name="keywords"       content="files">
+
+        <link rel="stylesheet" type="text/css" href="globalStyle.css">
+    </head>
+    <body>
+        <div class="topbanner" id="top">
+            <h1><a href="index">UShare</a></h1>
+            <h2>Registration page</h2>
+        </div>
+
+        <div class="navbar">
+            <a href="upload">Upload</a>
+            <a href="login">Login</a>
+        </div>
+
+        <p>Register your account below:</p>
+
+        <form action="/register" method="post" >
+            <input type="text" name="username" value="Username">
+            <input type="text" name="firstname" value="First name">
+            <input type="text" name="surname" value="Surname">
+            <input type="password" name ="password" value="Password">
+            <input type="submit" value="submit">
+        </form>
+
+    </body>
+</html>

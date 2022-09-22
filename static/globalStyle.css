@@ -1,0 +1,79 @@
+.topbanner {
+    font-family: "Gill Sans MT", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+
+}
+.topbanner h1, .topbanner a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+body {
+    background-color: whitesmoke;
+    border-top: 2px solid darkslategray;
+    border-right: 2px solid darkslategray;
+    border-left: 2px solid darkslategray;
+}
+
+.navbar {
+    font-family: "Gill Sans MT", sans-serif;
+    display: flow;
+    color: darkslategray;
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+    border-top: 2px solid darkslategray;
+}
+.navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    color: darkslategray;
+}
+.navbar a:hover{
+    color: azure;
+    background-color: darkslategrey;
+}
+.navbar a:active{
+    color: darkslategray;
+    background-color: grey;
+}
+
+.maincontent, .login {
+    font-family: "Gill Sans MT", sans-serif;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.maincontent a, .maincontent th {
+     color: darkslategray;
+ }.maincontent p {
+      width: max-content;
+  }
+
+  #append {
+      margin: auto;
+  }
+
+
+#imagegrid{
+    margin:auto;
+}
+
+
+.gridImg{
+    display: flex;
+    width: 32%;
+    margin: auto;
+    text-align: center;
+}
+
+#comments {
+    margin: auto;
+    border: 4px thick black;
+    width: 50%;
+    text-align: center;
+}
+

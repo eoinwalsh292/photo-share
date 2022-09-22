@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type = "text/javascript" src="imagegrid.js"></script>
+        <meta charset="UTF-8">
+        <title>UShare</title>
+
+        <meta name="description"    content="uploading website">
+        <meta name="author"         content="Eoin Walsh">
+        <meta name="keywords"       content="files">
+
+        <link rel="stylesheet" type="text/css" href="globalStyle.css">
+    </head>
+    <body>
+        <div class="topbanner" id="top">
+            <h1><a href="/index">UShare</a></h1>
+        </div>
+        <div class="navbar">
+            <a href="../upload">Upload</a>
+            <a href="../login">Login</a>
+            <a href="../register">Register</a>
+        </div>
+
+        <div class="maincontent">
+            <div id="imagegrid"><%- grid%></div>
+        </div>
+
+        <div>
+            <a href="logout">Logout</a>
+        </div>
+
+    </body>
+</html>
